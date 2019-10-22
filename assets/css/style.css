@@ -1,0 +1,30 @@
+html,
+body {
+
+    background: url(../images/3.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.btn-info {
+
+    margin-right: 5px;
+
+}
+
+#buttons{
+
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 52px;
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+    
+}
+
