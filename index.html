@@ -16,9 +16,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
     <!-- Added link to the jQuery Library -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
@@ -26,12 +24,36 @@
     <!-- Javascript file app.js -->
     <script src="./assets/javascript/gif.js"></script>
 
-
 </head>
 
 <body>
-    <div id="buttons"></div>
-    <div id="imagCount"></div>
+    <hr>
+
+    <div id="titleWeb">GifStatic - Places</div>
+
+    <hr>
+
+
+    <div class="text-center" id="buttons"></div>
+
+    <hr>
+
+    <form>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <label class="sr-only" for="add-topiccs">Name</label>
+                <input type="text" class="form-control mb-2" id="add-topics" placeholder="New Place ...">
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-2" id="add-local">Submit</button>
+            </div>
+        </div>
+    </form>
+
+    <hr>
+    <div class="container">
+        <div id="imagCount"></div>
+    </div>
 </body>
 
 </html>
